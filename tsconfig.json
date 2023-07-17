@@ -19,10 +19,23 @@
         "name": "next"
       }
     ],
+    "baseUrl": ".",
     "paths": {
       "@/*": ["./*"]
-    }
+    },
+    "typeRoots": ["./node_modules/@types", "./types"]
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "next.config.js",
+    "tailwind.config.js",
+    "postcss.config.js",
+    "./types/**/*",
+    "dist/types/**/*.ts",
+    "components/Dashboard/DashboardComponent/MyInvoice/Styles.js"
+  ],
   "exclude": ["node_modules"]
 }
