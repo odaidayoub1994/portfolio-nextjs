@@ -1,6 +1,5 @@
 import React from 'react';
-import ReactIcon from '@/assets/images/skills/react.svg';
-import NextIcon from '@/assets/images/skills/nextjs.svg';
+import LenderImage from '@/assets/images/projects/lenderPool.png';
 import ProjectItem from '../molecules/ProjectItem';
 
 const Projects = () => {
@@ -13,14 +12,10 @@ const Projects = () => {
 
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
-            title="RWA Marketplace"
-            projectImage={NextIcon}
-            projectUrl="/"
-          />
-          <ProjectItem
             title="Lender Pool"
-            projectImage={ReactIcon}
-            projectUrl="/"
+            projectImage={LenderImage}
+            projectUrl="https://lender.polytrade.app/"
+            technologies="Express Js, React Js"
           />
         </div>
       </div>
