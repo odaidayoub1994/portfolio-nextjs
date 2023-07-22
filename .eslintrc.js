@@ -20,6 +20,7 @@ module.exports = {
     navigator: true,
   },
   rules: {
+    '@typescript-eslint/no-explicit-any': 'off',
     'comma-dangle': ['error', 'always-multiline'],
     'comma-spacing': ['error', { before: false, after: true }],
     'eol-last': ['error', 'always'],
