@@ -1,7 +1,6 @@
 import React from 'react';
 import MyPhoto from '@/assets/images/skills/react.svg';
 import Image from 'next/image';
-import Link from 'next/link';
 import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
 
 const Contact = () => {
@@ -76,11 +75,11 @@ const Contact = () => {
           </div>
         </div>
         <div className="flex justify-center py-12">
-          <Link href="/">
+          <a href="#home">
             <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
               <HiOutlineChevronDoubleUp size={30} className="text-[#5651e5]" />
             </div>
-          </Link>
+          </a>
         </div>
       </div>
     </div>
