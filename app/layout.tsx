@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 import { ReactNode } from 'react';
 
 export const metadata: Metadata = {
-  title: 'Portfolio | Odai Dayoub',
+  title: 'Odai Dayoub | Software Engineer',
   description: '',
 };
 
