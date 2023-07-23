@@ -13,9 +13,9 @@ const Main = () => {
             LET'S BUILD SOMETHING TOGETHER
           </p>
           <h1 className="py-4 text-gray-700">
-            Hi, I'm <span className="text-[#5651e5]">Odai Dayoub</span>
+            Hi, I'm <span className="text-[#43d1d8]">Odai Dayoub</span>
           </h1>
-          <h1 className="py-2 text-gray-700">A Full-Stack Web Developer</h1>
+          <h1 className="py-2 text-gray-700">Full-Stack Web Developer</h1>
           <p className="py-4 text-gray-700 max-w-[70%] m-auto">
             I'm an enthusiastic Full Stack Web Developer who thrives on crafting
             exceptional web and mobile applications using cutting-edge
@@ -24,16 +24,16 @@ const Main = () => {
             years of hands-on experience to the table.
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
-            <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+            <div className="contact-icon">
               <FaLinkedinIn />
             </div>
-            <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+            <div className="contact-icon">
               <FaGithub />
             </div>
-            <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+            <div className="contact-icon">
               <AiOutlineMail />
             </div>
-            <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+            <div className="contact-icon">
               <BsFillPersonLinesFill />
             </div>
           </div>

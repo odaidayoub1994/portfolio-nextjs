@@ -5,6 +5,7 @@ import { AiOutlineMenu, AiOutlineClose, AiOutlineMail } from 'react-icons/ai';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import React, { useEffect, useState } from 'react';
+import NativeButton from '../Atomic/NativeButton';
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -32,40 +33,32 @@ const Navbar = () => {
     <div
       className={
         shadow
-          ? 'fixed w-full h-20 shadow-xl z-[100]'
-          : 'fixed w-full h-20 z-[100]'
+          ? 'fixed w-full px-20 h-20 shadow-xl z-[100] bg-[#ecf0f3]'
+          : 'fixed w-full px-20 h-20 z-[100]'
       }
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
-        <a href="#home">
-          <Image
-            src="/../public/assets/image.JPEG"
-            alt="/"
-            width="70"
-            height="70"
-            className="rounded-full"
-          />
-        </a>
+        <NativeButton>
+          <a href="#home" className="text-2xl font-bold text-gray-700">
+            Odai Dayoub
+          </a>
+        </NativeButton>
         <div>
           <ul className="hidden md:flex">
             <a href="#home">
-              <li className="ml-10 text-sm uppercase hover:border-b">Home</li>
+              <li className="ml-10 text-lg uppercase">Home</li>
             </a>
             <a href="#about">
-              <li className="ml-10 text-sm uppercase hover:border-b">About</li>
+              <li className="ml-10 text-lg uppercase">About</li>
             </a>
             <a href="#skills">
-              <li className="ml-10 text-sm uppercase hover:border-b">Skills</li>
+              <li className="ml-10 text-lg uppercase">Skills</li>
             </a>
             <a href="#projects">
-              <li className="ml-10 text-sm uppercase hover:border-b">
-                Projects
-              </li>
+              <li className="ml-10 text-lg uppercase">Projects</li>
             </a>
             <a href="#contact">
-              <li className="ml-10 text-sm uppercase hover:border-b">
-                Contact
-              </li>
+              <li className="ml-10 text-lg uppercase">Contact</li>
             </a>
           </ul>
           <div onClick={handleNav} className="md:hidden">
